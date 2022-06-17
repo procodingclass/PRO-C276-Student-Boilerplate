@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "author": "Gautam Ahuja",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 299.39, "left": -119, "attrs": {} },
+    { "type": "wokwi-tv", "id": "tv1", "top": -306.89, "left": -385.22, "attrs": {} }
+  ],
+  "connections": [
+    [ "tv1:GND", "uno:GND.1", "black", [ "v20.29", "h-4.4" ] ],
+    [ "tv1:IN", "uno:7", "green", [ "v17.59", "h79.06" ] ],
+    [ "tv1:SYNC", "uno:9", "orange", [ "v12.85", "h35.64" ] ]
+  ]
+}
